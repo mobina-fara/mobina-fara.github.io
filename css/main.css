@@ -1,0 +1,166 @@
+@font-face {
+  font-family: "Vazirbold";
+  src: url(../fonts/Vazirmatn-Bold.eot);
+  src: url(../fonts/Vazirmatn-Bold.eot?#iefix);
+  src: url(../fonts/Vazirmatn-Bold.woff2);
+  src: url(../fonts/Vazirmatn-Bold.woff);
+  src: url(../fonts/Vazirmatn-Bold.ttf);
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Vazirmd";
+  src: url(../fonts/Vazirmatn-Medium.eot);
+  src: url(../fonts/Vazirmatn-Medium.eot?#iefix);
+  src: url(../fonts/Vazirmatn-Medium.woff2);
+  src: url(../fonts/Vazirmatn-Medium.woff);
+  src: url(../fonts/Vazirmatn-Medium.ttf);
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Vazirmd1";
+  src: url(../fonts/Vazirmatn-Medium_1.eot);
+  src: url(../fonts/Vazirmatn-Medium_1.eot?#iefix);
+  src: url(../fonts/Vazirmatn-Medium_1.woff2);
+  src: url(../fonts/Vazirmatn-Medium_1.woff);
+  src: url(../fonts/Vazirmatn-Medium_1.ttf);
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Vazirsemi";
+  src: url(../fonts/Vazirmatn-SemiBold.eot);
+  src: url(../fonts/Vazirmatn-SemiBold.eot?#iefix);
+  src: url(../fonts/Vazirmatn-SemiBold.woff2);
+  src: url(../fonts/Vazirmatn-SemiBold.woff);
+  src: url(../fonts/Vazirmatn-SemiBold.ttf);
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+.navbar {
+  height: 65px;
+  z-index: 1030;
+  background-color: white;
+}
+.logo {
+  height: 85px;
+}
+.bar1 {
+  width: 24px;
+  height: 2px;
+}
+.blank {
+  height: 135px;
+}
+.application {
+  height: 689.234px;
+}
+.gif {
+  top: 65px;
+  z-index: 1040;
+}
+.poster-text {
+  font-family: vazirbold;
+}
+.app-versions .button {
+  font-family: vazirbold;
+  height: 55px;
+  width: 270px;
+}
+.driver-signup:hover{
+  background-color: #2b2b2b;
+}
+.services {
+  height: 824.359px;
+}
+.services > h2 {
+  font-family: vazirbold;
+}
+.services > .slider {
+  height: 118px;
+}
+.slider .items > a {
+  font-family: vazirmd;
+}
+.services .slider .item1,
+.item2,
+.item3,
+.item4,
+.item5,
+.item6 {
+  width: 80px;
+}
+.signup {
+  height: 730.125px;
+}
+.signup > h2 {
+  font-family: vazirbold;
+}
+.signup > ul {
+  font-size: 14px;
+  font-family: vazirsemi;
+}
+.signup > a {
+  height: 40px;
+  width: 150px;
+  font-family: vazirbold;
+  font-size: 14px;
+}
+.drivers-app > img {
+  width: 15px;
+}
+.drivers-app > a {
+  font-family: vazirbold;
+  font-size: 14px;
+}
+.foundation > h2 {
+  font-family: vazirbold;
+}
+.foundation > .description {
+  width: 404px;
+  height: 96px;
+  font-family: vazirsemi;
+  font-size: 14px;
+}
+.foundation > .driver-signup {
+  height: 40px;
+  width: 150px;
+  font-family: vazirbold;
+  font-size: 14px;
+}
+.discount > a {
+  font-family: vazirbold;
+  font-size: 14px;
+}
+.discount > img {
+  width: 15px;
+}
+.description > h2 {
+  font-family: vazirbold;
+  font-size: 32px;
+}
+.installation > .description {
+  font-size: 18px;
+  font-family: vazirsemi;
+  background-color: #fff0e9;
+}
+.description .download{
+  width: 203.953px;
+  height: 52px;
+  background-image: linear-gradient(to left, #e74a18 50%, #ff7632 100%);
+}
+.description .download:hover{
+  filter: brightness(90%);
+}
+.description .download-drivers{
+  width: 203.953px;
+  height: 52px; 
+}
+.description .download-drivers:hover{
+  background-color: #dad9d9;
+}
