@@ -43,7 +43,7 @@
   font-display: swap;
 }
 .navbar {
-  height: 65px;
+  height: 75px;
   z-index: 1030;
   background-color: white;
 }
@@ -55,14 +55,15 @@
   height: 2px;
 }
 .blank {
-  height: 135px;
+  height: 140px;
 }
 .application {
-  height: 689.234px;
+  height: 620px;
 }
 .gif {
-  top: 65px;
+  top: 75px;
   z-index: 1040;
+  cursor: pointer;
 }
 .poster-text {
   font-family: vazirbold;
@@ -72,14 +73,21 @@
   height: 55px;
   width: 270px;
 }
-.driver-signup:hover{
+.driver-signup:hover {
   background-color: #2b2b2b;
 }
 .services {
-  height: 824.359px;
+  height: 700px;
 }
 .services > h2 {
   font-family: vazirbold;
+}
+.services .service-text > h3 {
+  font-family: vazirbold;
+}
+.services .service-text > p {
+  font-family: vazirmd;
+  font-size: 14px;
 }
 .services > .slider {
   height: 118px;
@@ -111,9 +119,6 @@
   font-family: vazirbold;
   font-size: 14px;
 }
-.drivers-app > img {
-  width: 15px;
-}
 .drivers-app > a {
   font-family: vazirbold;
   font-size: 14px;
@@ -137,30 +142,73 @@
   font-family: vazirbold;
   font-size: 14px;
 }
-.discount > img {
-  width: 15px;
-}
 .description > h2 {
   font-family: vazirbold;
   font-size: 32px;
 }
 .installation > .description {
-  font-size: 18px;
+  font-size: 17px;
   font-family: vazirsemi;
   background-color: #fff0e9;
 }
-.description .download{
+.description .download {
   width: 203.953px;
   height: 52px;
   background-image: linear-gradient(to left, #e74a18 50%, #ff7632 100%);
 }
-.description .download:hover{
+.description .download:hover {
   filter: brightness(90%);
 }
-.description .download-drivers{
+.description .download-drivers {
   width: 203.953px;
-  height: 52px; 
+  height: 52px;
 }
-.description .download-drivers:hover{
+.description .download-drivers:hover {
   background-color: #dad9d9;
+}
+.weblog{
+  height: 1351.72px;
+}
+.weblog > h2 {
+  font-family: vazirbold;
+}
+.weblog-1, .weblog-2, .weblog-3 > h3 {
+  font-family: vazirbold;
+  font-size: 16px;
+  cursor: pointer;
+}
+.weblog-1 > p {
+  width: 390.750px;
+  height: 77px;
+  font-family: vazirsemi;
+  font-size: 18px;
+  cursor: pointer;
+}
+.weblog-2 > p {
+  width: 390.750px;
+  height: 77px;
+  font-family: vazirsemi;
+  font-size: 18px;
+  cursor: pointer;
+}
+.weblog-3 > p {
+  width: 390.750px;
+  height: 77px;
+  font-family: vazirsemi;
+  font-size: 18px;
+  cursor: pointer;
+}
+.footer{
+  height: 1290px;
+}
+.footer>.footer-logo>img{
+  width: 139.078px;
+  height: 30px;
+}
+.footer>h3{
+  font-family: vazirsemi;
+  font-size: 12px;
+}
+.footer .tapsi-list{
+  
 }
