@@ -166,49 +166,75 @@
 .description .download-drivers:hover {
   background-color: #dad9d9;
 }
-.weblog{
+.weblog {
   height: 1351.72px;
 }
 .weblog > h2 {
   font-family: vazirbold;
 }
-.weblog-1, .weblog-2, .weblog-3 > h3 {
+.weblog-1,
+.weblog-2,
+.weblog-3 > h3 {
   font-family: vazirbold;
   font-size: 16px;
   cursor: pointer;
 }
 .weblog-1 > p {
-  width: 390.750px;
+  width: 390.75px;
   height: 77px;
   font-family: vazirsemi;
   font-size: 18px;
   cursor: pointer;
 }
 .weblog-2 > p {
-  width: 390.750px;
+  width: 390.75px;
   height: 77px;
   font-family: vazirsemi;
   font-size: 18px;
   cursor: pointer;
 }
 .weblog-3 > p {
-  width: 390.750px;
+  width: 390.75px;
   height: 77px;
   font-family: vazirsemi;
   font-size: 18px;
   cursor: pointer;
 }
-.footer{
+.footer {
   height: 1290px;
 }
-.footer>.footer-logo>img{
+.footer > .footer-logo > img {
   width: 139.078px;
   height: 30px;
 }
-.footer>h3{
-  font-family: vazirsemi;
+.footer > h3 {
+  font-family: vazirbold;
   font-size: 12px;
 }
-.footer .tapsi-list{
-  
+.footer > h6 {
+  font-family: vazirbold;
+}
+.tapsi-list > h6 {
+  font-family: vazirbold;
+}
+.tapsi-list a {
+  font-family: vazirmd;
+  font-size: 14px;
+}
+.tapsi-list a:hover {
+  color: #e74a18;
+}
+.trust{
+  height: 146px;
+}
+.trust>a{
+  height: inherit;
+  line-height: 140px;
+}
+.footer>.copy-right{
+  font-family: vazirbold;
+  font-size: 13px;
+}
+.social-links .linkdin{
+  height: 20px;
 }
