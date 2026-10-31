@@ -18,26 +18,36 @@
 
     <title>تاکسی اینترنتی تپسی - اپلیکیشن درخواست خودرو و پیک</title>
   </head>
-  <body cla>
+  <body>
     <!--The start of navbar-->
     <div class="container-fluid">
       <div class="row">
         <div
           class="navbar col-12 py-0 px-0 border border-muted border-1 border-bottom border-top-0 border-end-0 border-start-0 fixed-top"
-        >
+        d-md-flex justify-content-md-evenly>
           <!--The Logo of navbar-->
-          <div class="logo col-6 d-flex justify-content-center">
+          <div class="logo col-6 d-flex justify-content-center col-md-10 justify-content-md-">
             <img src="img/5.webp" class="me-auto ms-5" />
+
+            <ul class="d-none d-md-flex align-items-md-center justify-content-md-start mb-md-0 px-md-0">
+            <li class="lh-lg"><a href="#" class="text-black-50 text-decoration-none text-md-start">ثبت نام راننده خودرو</a></li>
+            <li class="lh-lg mx-3"><a href="#" class="text-black-50 text-decoration-none text-md-start">ثبت‌نام راننده موتور</a></li>
+            <li class="lh-lg mx-3"><a href="#" class="text-black-50 text-decoration-none text-md-start">وبلاگ</a></li>
+            <li class="lh-lg mx-3"><a href="#" class="text-black-50 text-decoration-none text-md-start">پشتیبانی</a></li>
+            <li class="lh-lg mx-3"><a href="#" class="text-black-50 text-decoration-none text-md-start">اپلیکیشن رانندگان</a></li>
+          </ul>
+
           </div>
 
           <!--Information of navbar-->
           <div
-            class="moreinfo d-flex flex-column col-6 align-items-end justify-content-center"
+            class="moreinfo ms-auto me-5 d-md-none"
           >
             <div class="bar1 bg-dark mb-1 me-5"></div>
             <div class="bar1 bg-dark mb-1 me-5"></div>
             <div class="bar1 bg-dark mb-1 me-5"></div>
           </div>
+
         </div>
       </div>
     </div>
@@ -55,7 +65,7 @@
       </div>
     </div>
 
-    <div class="blank"></div>
+    <!--<div class="blank"></div>-->
 
     <!--The start of poster-->
     <div class="container-fluid px-3">
@@ -75,7 +85,7 @@
           >
             <a
               href="#"
-              class="bg-black button d-block text-center text-decoration-none text-white border border-dark rounded-5 pt-2 mb-3 fw-light driver-signup lh-lg"
+              class="button d-block text-center text-decoration-none text-white border border-dark rounded-5 pt-2 mb-3 fw-light driver-signup lh-lg"
             >
               نسخه اندروید مسافر</a
             >
@@ -103,45 +113,46 @@
           <h2 class="mb-3">سرویس های تپسی</h2>
 
           <!--The services slider-->
-          <div class="mt-3 slider d-flex mb-5">
-            <div class="items item1 w-50">
+          <div class="mt-3 slider d-flex mb-5 overflow-auto justify-content-evenly">
+
+            <div class="items ms-4">
               <a href="#" class="text-decoration-none text-black">
-                <img src="img/7.webp" class="w-100" />
+                <img src="img/7.webp" />
                 <p>کلاسیک</p>
               </a>
             </div>
 
-            <div class="items item2 opacity-25 w-50">
+            <div class="items opacity-25 ms-4">
               <a href="#" class="text-decoration-none text-black">
-                <img src="img/6.webp" class="w-100" />
+                <img src="img/6.webp"  />
                 <p>با همسفر</p>
               </a>
             </div>
 
-            <div class="items item3 opacity-25 w-50">
+            <div class="items opacity-25 ms-4">
               <a href="#" class="text-decoration-none text-black">
-                <img src="img/8.webp" class="w-100" />
+                <img src="img/8.webp" />
                 <p>ارسال بسته</p>
               </a>
             </div>
 
-            <div class="items item4 opacity-25 w-50">
+            <div class="items opacity-25 ms-4">
               <a href="#" class="text-decoration-none text-black">
-                <img src="img/9.webp" class="w-100" />
+                <img src="img/9.webp" />
                 <p>تلفنی</p>
               </a>
             </div>
 
-            <div class="items item5 opacity-25 w-50">
+            <div class="items opacity-25 ms-4">
               <a href="#" class="text-decoration-none text-black">
-                <img src="img/10.webp" class="w-100" />
+                <img src="img/10.webp" />
                 <p>پلاس</p>
               </a>
             </div>
 
-            <div class="items item6 opacity-25 w-50">
+            <div class="items opacity-25 ms-4">
               <a href="#" class="text-decoration-none text-black">
-                <img src="img/11.webp" class="w-100" />
+                <img src="img/11.webp" />
                 <p>بین شهری</p>
               </a>
             </div>
@@ -180,7 +191,7 @@
           </ul>
           <a
             href="#"
-            class="d-block text-white text-decoration-none rounded-5 pt-2 px-3 bg-black text-center driver-signup lh-lg"
+            class="d-block text-white text-decoration-none rounded-5 pt-2 px-3 text-center driver-signup lh-lg"
             >ثبت نام راننده خودرو</a
           >
           <div class="d-flex mt-4 drivers-app">
@@ -211,7 +222,7 @@
 
           <a
             href="#"
-            class="d-block text-white text-decoration-none rounded-5 pt-2 px-3 ms-2 mt-3 driver-signup bg-black text-center"
+            class="d-block text-white text-decoration-none rounded-5 pt-2 px-3 ms-2 mt-3 driver-signup text-center lh-lg"
             >پنل سازمانی تپسی</a
           >
 
@@ -318,72 +329,72 @@
           <h3 class="text-white mt-4">اپلیکیشن درخواست خودرو و پیک</h3>
 
           <h6 class="fs-4 text-white mt-5 mb-3">تپسی</h6>
-          <div class="tapsi-list d-flex flex-column">
-            <a href="#" class="text-white text-decoration-none mb-2"
+          <div class="tapsi-list d-flex flex-column w-25">
+            <a href="#" class="text-decoration-none mb-2"
               >وبلاگ تپسی</a
             >
-            <a href="#" class="text-white text-decoration-none mb-2"
+            <a href="#" class="text-decoration-none mb-2"
               >فرصت شغلی</a
             >
-            <a href="#" class="text-white text-decoration-none mb-2"
+            <a href="#" class="text-decoration-none mb-2"
               >تماس با ما</a
             >
-            <a href="#" class="text-white text-decoration-none mb-2"
+            <a href="#" class="text-decoration-none mb-2"
               >لوگو و هویت سازمانی</a
             >
-            <a href="#" class="text-white text-decoration-none mb-2"
+            <a href="#" class="text-decoration-none mb-2"
               >استخدام بازاریاب</a
             >
-            <a href="#" class="text-white text-decoration-none mb-2"
+            <a href="#" class="text-decoration-none mb-2"
               >امور سهام</a
             >
-            <a href="#" class="text-white text-decoration-none mb-2">ویدئوها</a>
+            <a href="#" class="text-decoration-none mb-2">ویدئوها</a>
 
             <h6 class="fs-4 text-white mt-4 mb-3">مسافران</h6>
 
-            <a href="#" class="text-white text-decoration-none mb-2"
+            <a href="#" class="text-decoration-none mb-2"
               >دانلود اپ مسافر</a
             >
-            <a href="#" class="text-white text-decoration-none mb-2"
+            <a href="#" class="text-decoration-none mb-2"
               >نسخه وب تپسی</a
             >
-            <a href="#" class="text-white text-decoration-none mb-2"
+            <a href="#" class="text-decoration-none mb-2"
               >پرسش‌های متداول مسافران</a
             >
-            <a href="#" class="text-white text-decoration-none mb-2"
+            <a href="#" class="text-decoration-none mb-2"
               >پرسش‌های متداول مسافران</a
             >
-            <a href="#" class="text-white text-decoration-none mb-2"
+            <a href="#" class="text-decoration-none mb-2"
               >باشگاه مشتریان</a
             >
 
             <h6 class="fs-4 text-white mt-4 mb-3">رانندگان</h6>
 
-            <a href="#" class="text-white text-decoration-none mb-2"
+            <a href="#" class="text-decoration-none mb-2"
               >دانلود اپ سفیر</a
             >
-            <a href="#" class="text-white text-decoration-none mb-2"
+            <a href="#" class="text-decoration-none mb-2"
               >ثبت نام راننده تاکسی اینترنتی</a
             >
-            <a href="#" class="text-white text-decoration-none mb-2"
+            <a href="#" class="text-decoration-none mb-2"
               >پرسش‌های متداول سفیران</a
             >
-            <a href="#" class="text-white text-decoration-none mb-2"
+            <a href="#" class="text-decoration-none mb-2"
               >شرایط و قوانین سفیران</a
             >
-            <a href="#" class="text-white text-decoration-none mb-2"
+            <a href="#" class="text-decoration-none mb-2"
               >تپسی گاراژ</a
             >
-            <a href="#" class="text-white text-decoration-none mb-2"
+            <a href="#" class="text-decoration-none mb-2"
               >ثبت نام راننده موتور</a
             >
 
             <h6 class="fs-4 text-white mt-4 mb-3">کسب و کارها</h6>
 
-            <a href="#" class="text-white text-decoration-none mb-2"
+            <a href="#" class="text-decoration-none mb-2"
               >پنل سازمانی تپسی</a
             >
-            <a href="#" class="text-white text-decoration-none mb-2"
+            <a href="#" class="text-decoration-none mb-2"
               >خرید کد اعتبار و تخفیف</a
             >
           </div>

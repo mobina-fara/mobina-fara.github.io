@@ -56,17 +56,27 @@
   height: auto;
   width: 45%;
   max-width: 102px;
+  cursor: pointer;
+}
+.logo>ul{
+  list-style-type: none;
+  height: 60px;
+}
+.logo>ul a{
+  font-family: vazirmd;
+  font-size: 15px;
 }
 .moreinfo {
+  width: 24px;
+  height: 20px;
   cursor: pointer;
-  height: inherit;
 }
 .bar1 {
   width: 24px;
   height: 2px;
 }
 .gif {
-  top: 55px;
+  top: 60px;
   z-index: 1040;
   height: px;
   cursor: pointer;
@@ -79,6 +89,9 @@
 .blank {
   height: 135px;
 }
+.application{
+  margin-top: 150px;
+}
 .application > img {
   width: 85%;
   max-width: 390px;
@@ -88,7 +101,7 @@
 }
 .poster-text h1,
 .p1 {
-  font-size: 32px;
+  font-size: 28px;
 }
 .app-versions .button {
   font-family: vazirbold;
@@ -98,6 +111,9 @@
 }
 .app-versions p{
   font-family: vazirbold;
+}
+.driver-signup{
+  background-color: black;
 }
 .driver-signup:hover {
   background-color: #2b2b2b;
@@ -113,15 +129,10 @@
   font-family: vazirmd1;
   font-size: 14px;
 }
-.slider .items > a {
+.slider .items {
   font-family: vazirmd;
 }
-.services .slider .item1,
-.item2,
-.item3,
-.item4,
-.item5,
-.item6 {
+.slider .items img{
   width: 80px;
 }
 .signup>img{
@@ -139,9 +150,6 @@
   width: 158px;
   font-family: vazirbold;
   font-size: 14px;
-}
-.signup .driver-signup:hover{
-  background-color: #2b2b2b;
 }
 .drivers-app > a {
   font-family: vazirbold;
@@ -236,6 +244,7 @@
 .tapsi-list a {
   font-family: vazirmd;
   font-size: 14px;
+  color: #fff;
 }
 .tapsi-list a:hover {
   color: #e74a18;
@@ -259,10 +268,7 @@
 
 /*Small*/
 @media all and (min-width:576px) and (max-width:767px) {
-  .poster-text h1,.p1{
+  .poster-text h1, .p1{
     font-size: 32px;
-  }
-  .gif> img{
-    background-image: url("../img/20.jpg");
   }
 }
