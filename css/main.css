@@ -45,26 +45,38 @@
 .navbar {
   z-index: 1030;
   height: 60px;
-  background-color: #fff;
+  background-color: #f8f8f8;
   box-sizing: border-box;
 }
 .logo {
   height: inherit;
 }
-.logo > img {
+.logo>img {
   object-fit: cover;
-  height: auto;
-  width: 45%;
+  height: 55px;
+  width: 25%;
   max-width: 102px;
+  min-width: 100px;
   cursor: pointer;
 }
-.logo>ul{
+.logo>ul {
   list-style-type: none;
   height: 60px;
+  width: 75%;
 }
-.logo>ul a{
+.logo>ul a {
   font-family: vazirmd;
   font-size: 15px;
+}
+.logo>ul .download {
+  width: 130.39px;
+  height: 40px;
+  background-image: linear-gradient(to left, #e74a18 50%, #ff7632 100%);
+  margin-left: -60px;
+  line-height: 40px;
+}
+.logo>ul .download:hover {
+  filter: brightness(90%);
 }
 .moreinfo {
   width: 24px;
@@ -81,7 +93,7 @@
   height: px;
   cursor: pointer;
 }
-.gif > img {
+.gif>img {
   object-fit: cover;
   height: auto;
   width: 100%;
@@ -89,18 +101,19 @@
 .blank {
   height: 135px;
 }
-.application{
+.application {
   margin-top: 150px;
+  background-color: #f8f8f8;
+  height: auto;
 }
-.application > img {
+.application>img {
   width: 85%;
+  height: auto;
   max-width: 390px;
+  box-shadow: 2px 2px 10px #c2b5b5;
 }
 .poster-text {
   font-family: vazirbold;
-}
-.poster-text h1,
-.p1 {
   font-size: 28px;
 }
 .app-versions .button {
@@ -109,136 +122,139 @@
   width: 270px;
   font-size: 18px;
 }
-.app-versions p{
+.app-versions p {
   font-family: vazirbold;
 }
-.driver-signup{
+.driver-signup {
   background-color: black;
 }
 .driver-signup:hover {
   background-color: #2b2b2b;
 }
-.services > h2 {
+.services>h2 {
   font-family: vazirbold;
   font-size: 24px;
 }
-.services .service-text > h3 {
+.service-text>h3 {
   font-family: vazirbold;
 }
-.services .service-text > p {
+.service-text>p {
   font-family: vazirmd1;
   font-size: 14px;
 }
 .slider .items {
   font-family: vazirmd;
 }
-.slider .items img{
-  width: 80px;
+.slider .items img {
+  width: 90px;
 }
-.signup>img{
+.signup>img {
   width: 90%;
 }
-.signup > h2 {
+.signup>h2 {
   font-family: vazirbold;
 }
-.signup > ul {
+.signup>ul {
   font-size: 14px;
   font-family: vazirsemi;
 }
-.signup > a {
+.signup>a {
   height: 40px;
   width: 158px;
   font-family: vazirbold;
   font-size: 14px;
 }
-.drivers-app > a {
+.drivers-app>a {
   font-family: vazirbold;
   font-size: 14px;
 }
-.foundation>img{
+.foundation>img {
   width: 90%;
 }
-.foundation > h2 {
+.foundation>h2 {
   font-family: vazirbold;
 }
-.foundation > .description {
+.foundation>.description {
   font-family: vazirsemi;
   font-size: 14px;
 }
-.foundation > .driver-signup {
+.foundation>.driver-signup {
   height: 40px;
   width: 150px;
   font-family: vazirbold;
   font-size: 14px;
 }
-.discount > a {
+.discount>a {
   font-family: vazirbold;
   font-size: 14px;
 }
-.description > h2 {
+.description>h2 {
   font-family: vazirbold;
   font-size: 32px;
 }
-.installation>.image>img{
+.installation>.image>img {
   width: 90%;
 }
-.installation > .description {
+.installation>.description {
   font-size: 17px;
   font-family: vazirsemi;
   background-color: #fff0e9;
 }
 .description .download {
-  width: 203.953px;
+  width: 30%;
   height: 52px;
+  min-width: 200px;
   background-image: linear-gradient(to left, #e74a18 50%, #ff7632 100%);
 }
 .description .download:hover {
   filter: brightness(90%);
 }
 .description .download-drivers {
-  width: 203.953px;
+  width: 30%;
   height: 52px;
+  min-width: 200px;
+  background-color: #fff;
 }
 .description .download-drivers:hover {
   background-color: #dad9d9;
 }
-.weblog > h2 {
+.weblog>h2 {
   font-family: vazirbold;
 }
 .weblog-1,
 .weblog-2,
-.weblog-3 > h3 {
+.weblog-3>h3 {
   font-family: vazirbold;
   font-size: 16px;
   cursor: pointer;
 }
-.weblog-1 > p {
+.weblog-1>p {
   font-family: vazirsemi;
   font-size: 18px;
   cursor: pointer;
 }
-.weblog-2 > p {
+.weblog-2>p {
   font-family: vazirsemi;
   font-size: 18px;
   cursor: pointer;
 }
-.weblog-3 > p {
+.weblog-3>p {
   font-family: vazirsemi;
   font-size: 18px;
   cursor: pointer;
 }
-.footer > .footer-logo > img {
+.footer>.footer-logo>img {
   width: 139.078px;
   height: 30px;
 }
-.footer > h3 {
+.footer>h3 {
   font-family: vazirbold;
   font-size: 12px;
 }
-.footer > h6 {
+.footer>h6 {
   font-family: vazirbold;
 }
-.tapsi-list > h6 {
+.tapsi-list>h6 {
   font-family: vazirbold;
 }
 .tapsi-list a {
@@ -249,26 +265,39 @@
 .tapsi-list a:hover {
   color: #e74a18;
 }
-.trust{
+.trust {
   height: 146px;
 }
-.trust>a{
+.trust>a {
   height: inherit;
   line-height: 140px;
 }
-.footer>.copy-right{
+.footer>.copy-right {
   font-family: vazirmd1;
   font-size: 14px;
 }
-.social-links .linkdin{
+.social-links .linkdin {
   height: 20px;
 }
-
 /*Extra small */
 
 /*Small*/
-@media all and (min-width:576px) and (max-width:767px) {
-  .poster-text h1, .p1{
+@media all and (min-width:576px) {
+  .poster-text {
     font-size: 32px;
+  }
+}
+@media all and (min-width:768px) {
+  .application>img {
+    width: 35%;
+  }
+  .poster-text {
+    font-size: 36px;
+  }
+  .services h2 {
+    font-size: 35px;
+  }
+  .service-picture-text img{
+    width: 40%;
   }
 }
