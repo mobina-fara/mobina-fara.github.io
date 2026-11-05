@@ -137,10 +137,12 @@
 }
 .service-text>h3 {
   font-family: vazirbold;
+  font-size: 16px;
 }
 .service-text>p {
   font-family: vazirmd1;
   font-size: 14px;
+  color: rgb(51, 51, 51);
 }
 .slider .items {
   font-family: vazirmd;
@@ -148,49 +150,55 @@
 .slider .items img {
   width: 90px;
 }
-.signup>img {
+.signup-section img {
   width: 90%;
 }
-.signup>h2 {
+.signup >h2 {
   font-family: vazirbold;
+  font-size: 20px;
 }
-.signup>ul {
+.signup li {
   font-size: 14px;
-  font-family: vazirsemi;
+  font-family: vazirmd;
+  color: rgb(51, 51, 51);
 }
-.signup>a {
+.drivers-app .driver-signup {
   height: 40px;
   width: 158px;
   font-family: vazirbold;
   font-size: 14px;
 }
-.drivers-app>a {
-  font-family: vazirbold;
+.drivers-app .driver-download {
+  font-family: vazirmd;
   font-size: 14px;
+}
+.drivers-app img{
+  width: 20px;
 }
 .foundation>img {
   width: 90%;
 }
-.foundation>h2 {
+.description> h2 {
   font-family: vazirbold;
+  font-size: 20px;
 }
-.foundation>.description {
-  font-family: vazirsemi;
+.description >p{
+  font-family: vazirmd;
   font-size: 14px;
+  color: rgb(51, 51 ,51);
 }
-.foundation>.driver-signup {
+.discount>.driver-signup {
   height: 40px;
   width: 150px;
   font-family: vazirbold;
   font-size: 14px;
 }
-.discount>a {
-  font-family: vazirbold;
+.discount>.driver-download {
+  font-family: vazirmd;
   font-size: 14px;
 }
-.description>h2 {
-  font-family: vazirbold;
-  font-size: 32px;
+.discount img{
+  width: 20px;
 }
 .installation>.image>img {
   width: 90%;
@@ -297,7 +305,32 @@
   .services h2 {
     font-size: 35px;
   }
-  .service-picture-text img{
-    width: 40%;
+  .service-text h3{
+    font-size: 28px;
+  }
+  .service-text>p{
+    font-size: 18px;
+    font-family: vazirmd;
+  }
+  .signup >h2 {
+    font-size: 32px;
+  }
+  .signup li{
+    font-size: 18px;
+    font-family: vazirmd;
+  }
+  .description>h2{
+    font-size: 32px;
+  }
+  .description>p{
+    font-size: 18px;
+  }
+}
+@media all and (min-width:1200px) {
+  .drivers-app>.driver-download{
+    font-family: 17px;
+  }
+  .discount>.driver-download{
+    font-family: 17px;
   }
 }
