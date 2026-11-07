@@ -72,28 +72,30 @@
   <!--The start of poster-->
   <div class="container-fluid">
     <div class="row">
-      <div class="col-12 application d-flex flex-column flex-md-row dir-ltr justify-content-md-evenly">
-        <img src="img/2.webp" class="rounded-4 mx-auto col-md-6 order-md-0 align-self-md-center mx-md-0" />
+      <div class="col-12 application d-md-flex px-md-4 justify-content-md-evenly px-xl-5">
 
-        <!--The text-->
-      
+        <div class="text-center col-md-5 order-md-0 align-self-md-center"><img src="img/2.webp" class="rounded-4 w-100" /></div>
 
-        <!--The buttons-->
-        <div class="col-12 app-versions pt-4 d-flex flex-column justify-content-between align-items-center col-md-6 order-md-first align-items-md-start">
+        <!--The Text & buttons-->
+        <div class="col-12 app-versions pt-4 d-flex flex-column justify-content-center align-items-center col-md-7 order-md-first align-items-md-start">
 
           <h1 class="mb-3 poster-text">با سوپر اپلیکیشن تپسی،</h1>
           <p class="p1 poster-text mb-4">زندگی به فرمان توست.</p>
 
-          <a href="#"
-            class="button d-block text-center text-decoration-none text-white border border-dark rounded-5 pt-2 mb-3 fw-light driver-signup lh-lg mx-md-0">
+          <div class="d-md-flex flex-md-column align-items-md-center flex-lg-row">
+            <a href="#"
+            class="button d-block text-center text-decoration-none text-white border border-dark rounded-5 pt-2 mb-3 fw-light driver-signup lh-lg me-lg-3">
             نسخه اندروید مسافر</a>
           <a href="#"
             class="button d-block text-center text-decoration-none text-black border border-dark border-2 rounded-5 pt-2 mb-3 lh-lg">نسخه
             وب اپلیکیشن مسافر</a>
-          <p class="d-md-none">سفیر تپسی شوید</p>
+          <p class="d-md-none text-center">سفیر تپسی شوید</p>
           <a href="#"
             class="button d-block text-center text-decoration-none text-black border border-dark border-2 rounded-5 pt-2 mb-3 lh-lg d-md-none">ثبت
             نام به عنوان راننده</a>
+          </div>
+
+
         </div>
       </div>
     </div>
@@ -210,7 +212,7 @@
       <div class="col-12 foundation px-2 py-2 mb-5 d-flex flex-column mt-4 d-md-flex flex-md-row justify-content-md-evenly col-md-11 mx-md-auto">
         <div class="order-md-0 col-md-5 align-self-md-center mt-md-5"><img src="img/14.webp" class="mx-auto w-100" /></div>
 
-        <div class="description d-md-flex flex-md-column order-md-first col-md-5 align-self-md-center">
+        <div class="description-found d-md-flex flex-md-column order-md-first col-md-5 align-self-md-center">
           <h2 class="mt-5 mb-4">خدمات ویژه کسب کارها</h2>
           <p class="lh-lg mb-4">
             شما می‌توانید از امکانات ویژه تپسی برای کسب وکارها مانند درخواست
@@ -237,24 +239,27 @@
   <!--The start of installation-->
   <div class="container-fluid">
     <div class="row">
-
-      <div class="col-12 installation px-3 py-5 mt-5 mb-5 d-flex flex-column">
-        <div class="image">
-          <img src="img/15.webp" class="w-100 mx-auto mt-4 rounded-4" />
+      <div class="col-12 installation d-flex flex-column px-md-5 flex-md-row">
+        <div class="image order-md-0 col-md-5">
+          <img src="img/15.webp" class="mx-auto mt-4 rounded-4 w-100" />
         </div>
 
-        <div class="description px-3 pb-4">
+        <div class="description pb-4 order-md-first ps-md-5 py-md-5 col-md-7">
           <h2 class="lh-base">همین حالا تپسی رو نصب کن!</h2>
           <p class="pt-4 lh-lg text-secondary">
             با نصب سوپر اپلیکیشن تپسی می‌توانید علاوه بر درخواست خودرو، از
             سرویس‌های ارسال بسته، سفارش غذا، خرید، سوپرمارکت و داروخانه نیز
             استفاده کنید.
           </p>
-          <a href="#" class="download rounded-5 d-block text-center pt-2 text-white text-decoration-none lh-lg">دانلود
+
+          <div d-flex flex-column flex-xl-row>
+            <a href="#" class="download rounded-5 d-block text-center pt-2 text-white text-decoration-none lh-lg w-25 d-xl-inline-block me-xl-5">دانلود
             اپلیکیشن تپسی</a>
           <a href="#"
-            class="download-drivers rounded-5 d-block text-black pt-2 text-center text-decoration-none lh-lg mt-3">دانلود
+            class="download-drivers rounded-5 d-block text-black pt-2 text-center text-decoration-none lh-lg mt-3 w-25 d-xl-inline-block">دانلود
             اپلیکیشن رانندگان</a>
+          </div>
+
         </div>
       </div>
     </div>
@@ -264,12 +269,14 @@
   <!--The start of weblog-->
   <div class="container-fluid">
     <div class="row">
-      <div class="col-12 weblog px-4 mb-5">
-        <h2 class="mb-5 fs-4">تازه‌ترین‌های وبلاگ تپسی</h2>
+      <div class="col-12 weblog">
+        <h2 class="mb-5">تازه‌ترین‌های وبلاگ تپسی</h2>
 
-        <div class="weblog-1">
+        <div class=" d-md-flex">
+
+        <div class="weblog-1 px-md-4">
           <img src="img/16.png" class="w-100 rounded-4" />
-          <h3 class="fs-6 mt-4 mb-3">
+          <h3 class="mt-4 mb-3 mt-md-2">
             چگونه دید بهتری در هنگام رانندگی داشته باشیم؟
           </h3>
           <p class="overflow-hidden opacity-50">
@@ -280,10 +287,10 @@
             نیست؛ تمیز بودن شیشه‌ها، تنظیم درست بخاری و تهویه …
           </p>
         </div>
-
-        <div class="weblog-2">
+        
+        <div class="weblog-2  px-md-4">
           <img src="img/16.png" class="w-100 rounded-4" />
-          <h3 class="fs-6 mt-4 mb-3">
+          <h3 class="mt-4 mb-3 mt-md-2">
             علت بخار شیشه ماشین در پاییز چیست و چطور آن را برطرف کنیم؟
           </h3>
           <p class="overflow-hidden opacity-50">
@@ -294,10 +301,10 @@
             استفاده درست از سیستم تهویه …
           </p>
         </div>
-
-        <div class="weblog-3">
+        
+        <div class="weblog-3 px-md-4">
           <img src="img/16.png" class="w-100 rounded-4" />
-          <h3 class="fs-6 mt-4 mb-3">برگشت به روتین بعد از تعطیلات</h3>
+          <h3 class="mt-4 mb-3 mt-md-2">برگشت به روتین بعد از تعطیلات</h3>
           <p class="overflow-hidden opacity-50">
             تعطیلات تمام شده و باید به کار و زندگی همیشگی بازگردید، اما چه
             کنید که همچنان دل و بدن شما در حال‌وهوای استراحت است؟ صبحگاه که
@@ -306,6 +313,9 @@
             دچار چنین وضعیتی شده‌اید، بدانید که …
           </p>
         </div>
+
+        </div>
+
       </div>
     </div>
   </div>
