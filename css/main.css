@@ -53,8 +53,7 @@
 }
 .logo>img {
   object-fit: cover;
-  height: 55px;
-  width: 25%;
+  height: 62px;
   max-width: 102px;
   min-width: 100px;
   cursor: pointer;
@@ -62,11 +61,14 @@
 .logo>ul {
   list-style-type: none;
   height: 60px;
-  width: 75%;
 }
 .logo>ul a {
-  font-family: vazirmd;
+  font-family: vazirmd1;
   font-size: 15px;
+  color: #807a7a;
+}
+.logo>ul a:hover{
+  color: #e74a18;
 }
 .logo>ul .download {
   width: 130.39px;
@@ -87,20 +89,15 @@
   width: 24px;
   height: 2px;
 }
-.gif {
+/* .gif {
   top: 60px;
   z-index: 1040;
   height: px;
   cursor: pointer;
-}
-.gif>img {
-  object-fit: cover;
-  height: auto;
-  width: 100%;
-}
-.blank {
+} */
+/* .blank {
   height: 135px;
-}
+} */
 .application {
   margin-top: 150px;
   background-color: #f8f8f8;
@@ -108,8 +105,10 @@
 }
 .application img {
   height: auto;
+  width: 100%;
   max-width: 410px;
   box-shadow: 2px 2px 10px #c2b5b5;
+  border-radius: 20px;
 }
 .poster-text {
   font-family: vazirbold;
@@ -120,6 +119,7 @@
   height: 53px;
   width: 270px;
   font-size: 18px;
+  border: 2px solid black;
 }
 .app-versions p {
   font-family: vazirbold;
@@ -129,6 +129,7 @@
 }
 .driver-signup:hover {
   background-color: #2b2b2b;
+  border-color: #2b2b2b;
 }
 .services>h2 {
   font-family: vazirbold;
@@ -145,9 +146,16 @@
 }
 .slider .items {
   font-family: vazirmd;
+  filter: opacity(0.4);
+}
+.slider .items:first-child{
+  filter: opacity(1);
 }
 .slider .items img {
   width: 90px;
+}
+.slider .items:hover{
+  filter: opacity(1);
 }
 .signup-section img {
   width: 90%;
@@ -162,10 +170,10 @@
   color: rgb(51, 51, 51);
 }
 .drivers-app .driver-signup {
-  height: 40px;
-  width: 158px;
-  font-family: vazirbold;
-  font-size: 14px;
+  height: 52px;
+  width: 172px;
+  font-family: vazirmd1;
+  line-height: 39px;
 }
 .drivers-app .driver-download {
   font-family: vazirmd;
@@ -187,10 +195,10 @@
   color: rgb(51, 51 ,51);
 }
 .discount>.driver-signup {
-  height: 40px;
-  width: 150px;
-  font-family: vazirbold;
-  font-size: 14px;
+  height: 52px;
+  width: 172px;
+  font-family: vazirmd1;
+  line-height: 39px;
 }
 .discount>.driver-download {
   font-family: vazirmd;
@@ -244,34 +252,43 @@
   font-family: vazirbold;
   font-size: 22px;
 }
+.weblog-1, .weblog-2, .weblog-3{
+  cursor: pointer;
+}
 .weblog h3 {
   font-family: vazirmd;
   font-size: 16px;
-  cursor: pointer;
 }
 .weblog p{
-  font-family: vazirsemi;
+  font-family: vazirmd1;
   font-size: 18px;
-  cursor: pointer;
+  height: 80px;
 }
-.footer>.footer-logo>img {
+.footer{
+  padding: 30px 15px;
+}
+.footer-logo>img {
   width: 139.078px;
   height: 30px;
 }
-.footer>h3 {
+.footer-tapsi>h3 {
   font-family: vazirbold;
   font-size: 12px;
 }
-.footer>h6 {
-  font-family: vazirbold;
+.tapsi-list{
+  width: fit-content;
 }
-.tapsi-list>h6 {
+.tapsi-list h6 {
   font-family: vazirbold;
+  font-size: 20px;
+}
+.tapsi-list-1{
+  margin-left: -30px;
 }
 .tapsi-list a {
-  font-family: vazirmd;
+  font-family: vazirmd1;
   font-size: 14px;
-  color: #fff;
+  color: rgb(255 ,255 ,255);
 }
 .tapsi-list a:hover {
   color: #e74a18;
@@ -282,15 +299,16 @@
 .trust>a {
   height: inherit;
   line-height: 140px;
+  border-radius: 15px;
+  object-fit: fill;
 }
-.footer>.copy-right {
-  font-family: vazirmd1;
+.footer .copy-right {
+  font-family: vazirmd;
   font-size: 14px;
 }
 .social-links .linkdin {
   height: 20px;
 }
-/*Extra small */
 
 /*Small*/
 @media all and (min-width:576px) {
@@ -298,9 +316,16 @@
     font-size: 32px;
   }
 }
+/* Medium */
 @media all and (min-width:768px) {
   .poster-text {
     font-size: 36px;
+  }
+  .application img{
+    transform: scale(1.3,1.3);
+    width: 65%;
+    max-width: 1000px;
+    border-radius: 30px;
   }
   .services h2 {
     font-size: 35px;
@@ -337,23 +362,61 @@
   .weblog p{
     height: 110px;
   }
+  .footer-logo img{
+    width: 120px;
+    max-width: 300px;
+  }
+  .footer-tapsi{
+  width: 13%;
+  }
+  .tapsi-list h6{
+    font-size: 18px;
+  }
+  .footer{
+    padding: 40px 70px;
+  }
+  .footer .copy-right {
+    font-size: 12px;
+  }
+  .trust {
+    height: 130px;
+  }
+  .trust .trust1 {
+    border-radius: 15px;
+    line-height: 130px;
+  }
+  .trust .trust2{
+    border-radius: 15px;
+    line-height: 130px;
+  }
+  .trust .trust3{
+    border-radius: 15px;
+    line-height: 130px;
+  }
+  .footer h3{
+    font-size: 14px;
+    font-family: vazirbold;
+    color: rgb(255, 255, 255);
+  }
 }
-@media all and (min-width:991px) {
+/* Large */
+@media all and (min-width:992px) {
   .poster-text{
     font-size: 40px;
+  }
+  .application{
+    margin-top: 200px;
   }
   .weblog h3{
     font-size: 22px;
   }
-}
-@media all and (min-width:1200px) {
   .drivers-app>.driver-download{
-    font-family: 17px;
+    font-size: 17px;
   }
   .discount>.driver-download{
-    font-family: 17px;
+    font-size: 17px;
   }
-  .app-versions .button{
-    font-family: 40px;
+  .app-versions .button {
+    border: 3px solid black;
   }
 }
